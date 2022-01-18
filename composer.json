@@ -1,0 +1,27 @@
+{
+    "name": "mitmelon/bitcoin-converter",
+    "description": "A simple and lightweight bitcoin to currency converter and vice versa based on current exchange rates from your chosen provider: Coinbase, Coindesk, Bitpay and etc.",
+    "type": "library",
+    "keywords": [
+            "bitcoin", "currency", "converter", "coinbase", "coindesk", "bitpay", "cryptocurrency"
+        ],
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Adeyeye George",
+            "email": "gestech11@gmail.com"
+        }
+    ],
+    "require": {
+        "php": ">=8.0",
+        "guzzlehttp/guzzle": "^7.4",
+        "illuminate/cache": "^8.80",
+        "illuminate/filesystem": "^8.80" 
+    },
+    "autoload": {
+        "psr-4": {
+            "Watermelon\\BitcoinConverter\\": "src/"
+        }
+    },
+    "prefer-stable" : true
+}
