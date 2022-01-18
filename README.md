@@ -1,8 +1,5 @@
 # Bitcoin Converter
 
-[![Software License][ico-license]](LICENSE)
-[![Total Downloads][ico-downloads]][link-downloads]
-
 This library helps fintech developers to convert bitcoin to fiat currency or to another cryptocurrency and vice versa.
 
 Available exchange rates providers are:
@@ -90,3 +87,7 @@ Open for suggestions and requests. Please request through [issue][link-issue] or
 ## License
 
 The MIT License (MIT). Please see [License File](LICENSE) for more information.
+
+[link-coinbase-rates]: https://www.coinbase.com/charts
+[link-coindesk-rates]: https://www.coindesk.com/price
+[link-bitpay-rates]: https://bitpay.com/bitcoin-exchange-rates
