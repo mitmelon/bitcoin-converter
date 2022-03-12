@@ -36,14 +36,6 @@ echo $convert->toCurrency('USD', 0.5);
 echo $convert->toCurrency('LTC', 0.5);
 ```
 
-or you can use the helper function for convenience:
-
-``` php
-// uses Coinbase as default provider
-echo to_currency('USD', 0.5);
-echo to_currency('LTC', 0.5);
-```
-
 #### You can also convert any currency (ISO 4217 fiat or crypto) to Bitcoin:
 
 ``` php
